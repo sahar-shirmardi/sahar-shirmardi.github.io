@@ -119,7 +119,16 @@ html {
 
 .avatar img {
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%); }
+  /* filter: grayscale(100%);  */
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  display: none;
+}
 
 footer a:not(.nav-link) {
   color: inherit;
